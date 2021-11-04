@@ -19,6 +19,8 @@ private slots:
 
     void on_pushButton_clicked();
 
+    void on_label_4_linkHovered(const QString &link);
+
 private:
     Ui::MainWindow *ui;
 };
