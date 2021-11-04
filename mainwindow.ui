@@ -6,12 +6,12 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>753</width>
+    <height>504</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Kalkulator</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QTabWidget" name="tabWidget">
@@ -30,353 +30,295 @@
      <attribute name="title">
       <string>Paski</string>
      </attribute>
-     <widget class="QPushButton" name="przycisk">
-      <property name="geometry">
-       <rect>
-        <x>150</x>
-        <y>160</y>
-        <width>93</width>
-        <height>28</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Oblicz</string>
-      </property>
-     </widget>
-     <widget class="QLCDNumber" name="wynik">
-      <property name="geometry">
-       <rect>
-        <x>340</x>
-        <y>160</y>
-        <width>91</width>
-        <height>31</height>
-       </rect>
-      </property>
-     </widget>
-     <widget class="QComboBox" name="pasek1">
+     <widget class="QWidget" name="gridLayoutWidget">
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>60</y>
-        <width>111</width>
-        <height>41</height>
+        <y>0</y>
+        <width>611</width>
+        <height>251</height>
        </rect>
       </property>
-      <item>
-       <property name="text">
-        <string>0</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Czarny</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Brązowy</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Czerwony</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Pomarańcz</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Zółty</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Zielony</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Niebieski</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Fioletowy</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Szary</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Biały</string>
-       </property>
-      </item>
-     </widget>
-     <widget class="QComboBox" name="pasek2">
-      <property name="geometry">
-       <rect>
-        <x>130</x>
-        <y>60</y>
-        <width>111</width>
-        <height>41</height>
-       </rect>
-      </property>
-      <item>
-       <property name="text">
-        <string>0</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Czarny</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Brązowy</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Czerwony</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Pomarańcz</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Zółty</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Zielony</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Niebieski</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Fioletowy</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Szary</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Biały</string>
-       </property>
-      </item>
-     </widget>
-     <widget class="QComboBox" name="pasek3">
-      <property name="geometry">
-       <rect>
-        <x>250</x>
-        <y>60</y>
-        <width>111</width>
-        <height>41</height>
-       </rect>
-      </property>
-      <item>
-       <property name="text">
-        <string>0</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Czarny</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Brązowy</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Czerwony</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Pomarańcz</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Zółty</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Zielony</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Niebieski</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Fioletowy</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Szary</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Biały</string>
-       </property>
-      </item>
-     </widget>
-     <widget class="QComboBox" name="pasek4">
-      <property name="geometry">
-       <rect>
-        <x>370</x>
-        <y>60</y>
-        <width>111</width>
-        <height>41</height>
-       </rect>
-      </property>
-      <item>
-       <property name="text">
-        <string>0</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Czarny</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Brązowy</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Czerwony</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Pomarańcz</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Zółty</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Zielony</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Niebieski</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Fioletowy</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Szary</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Biały</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Złoty</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Srebrny</string>
-       </property>
-      </item>
-     </widget>
-     <widget class="QComboBox" name="pasek5">
-      <property name="geometry">
-       <rect>
-        <x>490</x>
-        <y>60</y>
-        <width>111</width>
-        <height>41</height>
-       </rect>
-      </property>
-      <item>
-       <property name="text">
-        <string>0</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Brązowy</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Czerwony</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Zielony</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Niebieski</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Fioletowy</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Szary</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Złoty</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Srebrny</string>
-       </property>
-      </item>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="1">
+        <widget class="QComboBox" name="pasek2"/>
+       </item>
+       <item row="0" column="4">
+        <widget class="QComboBox" name="pasek5">
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>40</height>
+          </size>
+         </property>
+         <item>
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Brązowy</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Czerwony</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Zielony</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Niebieski</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Fioletowy</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Szary</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Złoty</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Srebrny</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLabel" name="label_5">
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="3">
+        <widget class="QLabel" name="label_7">
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QComboBox" name="pasek3">
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>40</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QComboBox" name="pasek1">
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>200</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_4">
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="4">
+        <widget class="QLabel" name="label_2">
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="3">
+        <widget class="QComboBox" name="pasek4">
+         <item>
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Czarny</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Brązowy</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Czerwony</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Pomarańcz</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Zółty</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Zielony</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Niebieski</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Fioletowy</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Szary</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Biały</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Złoty</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Srebrny</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="QComboBox" name="comboBox_2"/>
+       </item>
+       <item row="2" column="3">
+        <widget class="QLabel" name="label">
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QLabel" name="label_6">
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QPushButton" name="pushButton">
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>Oblicz</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="4">
+        <widget class="QLabel" name="label_8">
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QComboBox" name="comboBox"/>
+       </item>
+      </layout>
      </widget>
     </widget>
     <widget class="QWidget" name="tab_2">
@@ -385,13 +327,84 @@
      </attribute>
     </widget>
    </widget>
+   <widget class="QComboBox" name="pasek3_2">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>50</y>
+      <width>100</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>100</width>
+      <height>40</height>
+     </size>
+    </property>
+    <item>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Czarny</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Brązowy</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Czerwony</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Pomarańcz</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Zółty</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Zielony</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Niebieski</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fioletowy</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Szary</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Biały</string>
+     </property>
+    </item>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>753</width>
      <height>26</height>
     </rect>
    </property>
