@@ -2,4 +2,5 @@
     <qresource prefix="/images">
         <file>4paski.png</file>
     </qresource>
+    <qresource prefix="/file"/>
 </RCC>

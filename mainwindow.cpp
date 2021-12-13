@@ -7,6 +7,7 @@
 
 double wartosc;
 double tolerance;
+QString wynik;
 int A; //wartosc pasaka pierwszego
 int B; //wartosc pasaka drugiego
 int C; //wartosc pasaka Trzeciego
@@ -15,6 +16,7 @@ int E;
 double mnoznik;
 int mnoznikk;
 QString wartoscmnoznika;
+QString wynikk;
 
 
 
@@ -28,6 +30,7 @@ MainWindow::MainWindow(QWidget *parent)
     int w = ui->obraz->width();
     int h = ui->obraz->height();
     ui->obraz->setPixmap(pix.scaled(w,h,Qt::KeepAspectRatio));
+
 
 
 }
@@ -138,11 +141,29 @@ void MainWindow::on_pushButton_clicked()
     }
 
     if(A!=0&&B!=0&&D!=0&&E!=0){
-    ui->label->setText(QString::number(wartosc) + QString(wartoscmnoznika)+ "  " + "Ohms");
-    ui->label_2->setText("tolerancja: ±" + QString::number(tolerance) + "%");
+
+    wynik = (QString::number(wartosc) + QString(wartoscmnoznika)+ "  " + "Ohms");
+    wynikk = ("tolerancja: ±" + QString::number(tolerance) + "%");
+
     }else {
-        ui->label->setText("Błąd");
-        ui->label_2->setText("Błąd");
+        wynik = ("Błąd");
+        wynikk = ("Błąd");
+    }
+    ui->label->setText(wynik);
+    ui->label_2->setText(wynikk);
+
+}
+
+void MainWindow::on_pushButton_2_clicked()
+{
+    QFile file ("D:/telekomunikacja/Semestry/Moje/Semestr 3/Programowanie aplikacyjne/Projekt/1/kalkulatorelektroniczny/file.txt");
+
+    if(file.open(QIODevice::WriteOnly | QIODevice::Text)){ // metoda open w otwiera plik w trybie tylko do odczytu z zamianą znaków \r\n ma \n
+        QTextStream out(&file);
+
+        out << ui->pasek1->currentText() + " | " +  ui->pasek2->currentText() + " | " +  ui->pasek3->currentText() + " | " +  ui->pasek4->currentText()+ " | " +  ui->pasek5->currentText() + " | " + wynik + " | "+ wynikk;
+        file.close();
     }
 
 }
+
