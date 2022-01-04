@@ -1,0 +1,20 @@
+Brązowy | Brązowy | Zielony | Brązowy | Czerwony | 1.15k  Ohms | tolerancja: ±2%<podaj kolor> | <podaj kolor> | <podaj kolor> | <podaj kolor> | <podaj kolor> | Błąd | Błąd<podaj kolor> | <podaj kolor> | <podaj kolor> | <podaj kolor> | <podaj kolor> | Błąd | BłądBrązowy | <podaj kolor> | <podaj kolor> | <podaj kolor> | <podaj kolor> | Błąd | Błąd<podaj kolor> | <podaj kolor> | <podaj kolor> | <podaj kolor> | <podaj kolor> |  |  
+<podaj kolor> | <podaj kolor> | <podaj kolor> | <podaj kolor> | <podaj kolor> | Błąd | Błąd 
+<podaj kolor> | <podaj kolor> | <podaj kolor> | <podaj kolor> | <podaj kolor> | Błąd | Błąd 
+<podaj kolor> | <podaj kolor> | <podaj kolor> | <podaj kolor> | <podaj kolor> | Błąd | Błąd 
+<podaj kolor> | <podaj kolor> | <podaj kolor> | <podaj kolor> | <podaj kolor> | Błąd | Błąd 
+<podaj kolor> | <podaj kolor> | <podaj kolor> | <podaj kolor> | <podaj kolor> | Błąd | Błąd 
+Brązowy | Czerwony | Czerwony | Brązowy | Zielony | 0   Ohms | tolerancja: ±0.5% 
+Czarny | Czerwony | Czerwony | Pomarańcz | Fioletowy | 6.95314e-310  Ohms | tolerancja: ±6.22354e-317% 
+Czerwony | Zółty | Niebieski | Zielony | Szary | 6.95314e-310  Ohms | tolerancja: ±6.57492e-317% 
+<podaj kolor> | <podaj kolor> | <podaj kolor> | <podaj kolor> | <podaj kolor> | 6.95314e-310  Ohms | tolerancja: ±6.57492e-317% 
+Czerwony | Czerwony | Pomarańcz | Zółty | Szary | 0  Ohms | tolerancja: ±6.19721e-317% 
+Zółty | Czerwony | Pomarańcz | Zółty | Szary | 0  Ohms | tolerancja: ±6.74373e-317% 
+<podaj kolor> | <podaj kolor> | <podaj kolor> | <podaj kolor> | <podaj kolor> |  |  
+Brązowy | Brązowy | Zółty | Zielony | Szary | 0  Ohms | tolerancja: ±6.60609e-317% 
+Brązowy | Pomarańcz | Zółty | Pomarańcz | Szary | 0  Ohms | tolerancja: ±6.58398e-317% 
+Czerwony | Czerwony | Czerwony | Pomarańcz | Niebieski | 0  Ohms | tolerancja: ±6.55057e-317% 
+Czerwony | Czerwony | Czerwony | Czerwony | Czerwony | 22200  Ohms | tolerancja: ±2% 
+<podaj kolor> | <podaj kolor> | <podaj kolor> | <podaj kolor> | <podaj kolor> | Błąd | Błąd 
+Czerwony | Czerwony | Czerwony | Czerwony | Czerwony | Błąd | Błąd 
+Czerwony | Czerwony | Czerwony | Czerwony | Czerwony | 22200  Ohms | tolerancja: ±2% 

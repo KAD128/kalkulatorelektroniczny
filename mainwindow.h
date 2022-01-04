@@ -1,6 +1,8 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
+
+
 #include <QMainWindow>
 
 QT_BEGIN_NAMESPACE
@@ -15,6 +17,23 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+    double wartosc;
+    double tolerance;
+    double wynikowa;
+    QString wynik;
+    QString wynikk;
+    int blad=0;
+    int A; //wartosc pasaka pierwszego
+    int B; //wartosc pasaka drugiego
+    int C; //wartosc pasaka Trzeciego
+    int D; // wartosc paska czwartego
+    int E;
+    double mnoznik;
+    QString mnoznikk;
+    int nowymnoznik = 0;
+    QString wartoscmnoznika;
+
+
 private slots:
 
     void on_pushButton_clicked();
@@ -22,10 +41,18 @@ private slots:
     void on_label_4_linkHovered(const QString &link);
 
     void on_graphicsView_rubberBandChanged(const QRect &viewportRect, const QPointF &fromScenePoint, const QPointF &toScenePoint);
-
     void on_obraz_linkActivated(const QString &link);
 
     void on_pushButton_2_clicked();
+
+    void on_pasek1_currentIndexChanged();
+    void on_pasek2_currentIndexChanged();
+    void on_pasek3_currentIndexChanged();
+    void on_pasek4_currentIndexChanged();
+    void on_pasek5_currentIndexChanged();
+
+
+    void on_pasek1_currentIndexChanged(const QString &arg1);
 
 private:
     Ui::MainWindow *ui;
