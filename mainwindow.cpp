@@ -23,23 +23,15 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_clicked()
 {
-    obliczenia paski;
-    paski.rezystorym1(D, mnoznik);
-    mnoznik = paski.rezystorym1(D, mnoznik);
+    obliczenia paski;  // //wywołanie klasy
+    paski.rezystorym1(D, mnoznik); // wywołanie metody na obiektach
+    mnoznik = paski.rezystorym1(D, mnoznik); //przypisanie tego co zwraca do zmiennej
     paski.rezystorym2(D, mnoznikk);
     mnoznikk = paski.rezystorym2(D, mnoznikk);
     paski.tolerance(E, tolerance);
     tolerance = paski.tolerance(E, tolerance);
     paski.rezystory1(A, B, C, D, E, mnoznik, wynikowa);
     wartosc = paski.rezystory1(A, B, C, D, E, mnoznik, wynikowa);
-    //paski.rezystory2(mnoznikk, wynikowa, nowymnoznik);
-    //mnoznikk = paski.rezystory2(mnoznikk, wynikowa, nowymnoznik);
-    //paski.rezystory3(wartosc, wynikowa);
-    //mnoznikk = paski.rezystory3(wartosc, wynikowa);
-    //paski.mnoznikkkkk(wartoscmnoznika, nowymnoznik);
-   //wartoscmnoznika = paski.mnoznikkkkk(wartoscmnoznika, nowymnoznik);
-
-
 
 
     if (wartosc != 0)

@@ -19,6 +19,7 @@ public:
 
     double wartosc;
     double tolerance;
+
     double wynikowa;
     QString wynik;
     QString wynikk;
@@ -38,10 +39,6 @@ private slots:
 
     void on_pushButton_clicked();
 
-    void on_label_4_linkHovered(const QString &link);
-
-    void on_graphicsView_rubberBandChanged(const QRect &viewportRect, const QPointF &fromScenePoint, const QPointF &toScenePoint);
-    void on_obraz_linkActivated(const QString &link);
 
     void on_pushButton_2_clicked();
 
@@ -51,8 +48,6 @@ private slots:
     void on_pasek4_currentIndexChanged();
     void on_pasek5_currentIndexChanged();
 
-
-    void on_pasek1_currentIndexChanged(const QString &arg1);
 
 private:
     Ui::MainWindow *ui;

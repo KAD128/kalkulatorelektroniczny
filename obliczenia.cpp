@@ -99,14 +99,6 @@ double obliczenia::rezystory1(int A, int B, int C, int D, int E, double mnoznik,
     return wynikowa;
 }
 
-/*double obliczenia::rezystory2(int mnoznikk, double wynikowa, int nowymnoznik){
-nowymnoznik = mnoznikk;
-    if (wynikowa>1000){
-        nowymnoznik = nowymnoznik + 1;
-    }
-    return nowymnoznik;
-}*/
-
 double obliczenia::rezystory3(double wartosc, double wynikowa){
 
     if (wynikowa>1000){
@@ -114,18 +106,3 @@ double obliczenia::rezystory3(double wartosc, double wynikowa){
     } else wartosc = wynikowa;
     return wartosc;
 }
-
-/*QString obliczenia::mnoznikkkkk(QString wartoscmnoznika, int nowymnoznik){
-
-    if (nowymnoznik==1){
-        wartoscmnoznika= " ";
-    }else if (nowymnoznik == 2){
-        wartoscmnoznika = "k";
-    }else if (nowymnoznik == 3){
-        wartoscmnoznika = "M";
-    }else if (nowymnoznik == 4){
-        wartoscmnoznika = "G";
-    }
-    return wartoscmnoznika;
-
-}*/

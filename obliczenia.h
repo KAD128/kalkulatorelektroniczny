@@ -1,6 +1,5 @@
 #ifndef OBLICZENIA_H
 #define OBLICZENIA_H
-//#include "mainwindow.h"
 #include <string>
 #include <iostream>
 #include <QtCore>
